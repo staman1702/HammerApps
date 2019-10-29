@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HammerAppMVC", "HammerAppMVC\HammerAppMVC.csproj", "{FF667E31-E3E4-4C33-99CA-244714A786F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTbl", "ConsoleTbl\ConsoleTbl.csproj", "{B27C88C7-F541-404B-8DDE-AA4795E63622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF667E31-E3E4-4C33-99CA-244714A786F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF667E31-E3E4-4C33-99CA-244714A786F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF667E31-E3E4-4C33-99CA-244714A786F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF667E31-E3E4-4C33-99CA-244714A786F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B27C88C7-F541-404B-8DDE-AA4795E63622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27C88C7-F541-404B-8DDE-AA4795E63622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27C88C7-F541-404B-8DDE-AA4795E63622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27C88C7-F541-404B-8DDE-AA4795E63622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A62ECAFC-D6C3-43B9-A7D8-8452FDDFCBEE}
+	EndGlobalSection
+EndGlobal

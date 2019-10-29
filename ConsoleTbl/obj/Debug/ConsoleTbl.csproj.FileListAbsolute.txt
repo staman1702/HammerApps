@@ -1,0 +1,7 @@
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\bin\Debug\ConsoleTbl.exe.config
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\bin\Debug\ConsoleTbl.exe
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\bin\Debug\ConsoleTbl.pdb
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\obj\Debug\ConsoleTbl.csprojAssemblyReference.cache
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\obj\Debug\ConsoleTbl.csproj.CoreCompileInputs.cache
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\obj\Debug\ConsoleTbl.exe
+C:\Users\Matija\Hammer\HammerApps\ConsoleTbl\obj\Debug\ConsoleTbl.pdb
