@@ -1,0 +1,17 @@
+﻿@model double
+
+@{
+    ViewBag.Title = "AverageSalary";
+}
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Salary Query</h2>
+            <p>
+                Average employee salary outside London is: @Model !
+            </p>
+            <p>
+             @Html.ActionLink("Back to Queris Index", "Index", "Queris")
+            </p>
+        </div>
+    </div>

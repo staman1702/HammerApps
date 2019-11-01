@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+    <div class="jumbotron">
+        <h1>Queries Index</h1>
+        <p class="lead">Here you can find answers to queries from Candidate Project.</p>
+        
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Salary Query</h2>
+        <p>
+            What is average employee salary outside London?
+        </p>
+        <p>
+        @Html.ActionLink("Find out!", "AverageSalary", "Queris")
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Locations Query</h2>
+        <p>
+            What locations have more then one employee?
+        </p>
+        <p>
+            @Html.ActionLink("Find out!", "Locations", "Queris")
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>2nd Salary Query</h2>
+        <p>
+            Which is second highest salary?
+        </p>
+        <p>
+            @Html.ActionLink("Find out!", "Salary2", "Queris")
+        </p>
+    </div>
+</div>
+

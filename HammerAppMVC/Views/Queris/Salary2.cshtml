@@ -1,0 +1,35 @@
+﻿@model IGrouping<int, HammerAppMVC.Models.Employee>
+@{
+    ViewBag.Title = "Salary2";
+}
+
+<h2>Second highest salary</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Employee Name
+        </th>
+        <th>
+            Salary
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<p>
+    @Html.ActionLink("Back to Queris Index", "Index", "Queris")
+</p>
+
