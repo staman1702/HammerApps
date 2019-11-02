@@ -1,10 +1,7 @@
-Use HammerAppMVCDatabase
-go
-
-create trigger trg_UpdateLastModify
-on dbo.Employees
-after UPDATE, INSERT
-as
+CREATE TRIGGER trg_UpdateLastModify
+ON dbo.Employees
+AFTER UPDATE, INSERT
+AS
     UPDATE dbo.Employees
-    set LastModify = GETDATE()
-    where EmployeeNo IN (SELECT DISTINCT EmployeeNo FROM Inserted)
+    SET LastModify = GETDATE()
+    WHERE EmployeeNo IN (SELECT DISTINCT EmployeeNo FROM Inserted)

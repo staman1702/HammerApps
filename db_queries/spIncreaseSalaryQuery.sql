@@ -1,8 +1,8 @@
-create procedure dbo.spIncreaseSalary
+CREATE PROCEDURE dbo.spIncreaseSalary
 @EmployeeNo int, @coeficient float
-as
-begin 
-update Employees
-set Salary = Salary*@coeficient
-where EmployeeNo=@EmployeeNo
-end
+AS
+BEGIN 
+UPDATE Employees
+SET Salary = Salary*@coeficient
+WHERE EmployeeNo=@EmployeeNo
+END

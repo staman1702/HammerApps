@@ -1,6 +1,6 @@
-create view vwDepartment 
-as
-select DepartmentNo as departmentNo, 
-DepartmentName + ' ' + DepartmentLocation as departmentDescription
-from Departments
-go
+CREATE VIEW vwDepartment 
+AS
+SELECT DepartmentNo AS departmentNo, 
+DepartmentName + ' ' + DepartmentLocation AS departmentDescription
+FROM Departments
+GO

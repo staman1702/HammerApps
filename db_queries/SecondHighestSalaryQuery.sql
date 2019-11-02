@@ -1,4 +1,4 @@
-select Max(Salary)
-from Employees
-where Salary < (select Max(Salary) from Employees)
+SELECT Max(Salary)
+FROM Employees
+WHERE Salary < (SELECT Max(Salary) FROM Employees)
 
