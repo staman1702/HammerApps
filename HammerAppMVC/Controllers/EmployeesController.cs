@@ -51,7 +51,7 @@ namespace HammerAppMVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "EmployeeNo,EmployeeName,Salary,DepartmentNo")] Employee employee)
+        public ActionResult Create([Bind(Include = "EmployeeNo,EmployeeName,Salary,DepartmentNo,LastModify")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace HammerAppMVC.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "EmployeeNo,EmployeeName,Salary,DepartmentNo")] Employee employee)
+        public ActionResult Edit([Bind(Include = "EmployeeNo,EmployeeName,Salary,DepartmentNo,LastModify")] Employee employee)
         {
             if (ModelState.IsValid)
             {
