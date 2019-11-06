@@ -10,6 +10,16 @@ Hammer - Candidate Project
 
 * Create Method which exports Employee table into text format like:
 
++----------+------------------+------------+------------+
+|employeeNo|employeeName      |Salary      |DepartmentNo| 
++----------+------------------+------------+------------+
+|1         |Fred Davies       |50 000      |    4       | 
++----------+------------------+------------+------------+
+|2         |Bernard Katic     |50 000      |    3       | 
++----------+------------------+------------+------------+
+|3         |Rich Davies       |30 000      |    5       | 
++----------+------------------+------------+------------+
+
 
 
 * Create WEB API/REST web service with endpoints for GetDepartments and GetEmployees which returns these lists in JSON.
@@ -40,3 +50,8 @@ example: ti oncrease 10% for Fred Davies, No 1
 spIncreaseSalary 1,10
 
 * Optional: Create a trigger on Employee tables which writes the current date/tim in lastModify column after each update
+
+
+
+* A customer Mr. Billich has sent you a bug repost. He complains that a certain field in the DB is not updated.
+  Write a short reply in which you would apologize, ask for detailed information about it and promise a quick solution.
