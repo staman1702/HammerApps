@@ -55,3 +55,4 @@ spIncreaseSalary 1,10
 
 * A customer Mr. Billich has sent you a bug repost. He complains that a certain field in the DB is not updated.
   Write a short reply in which you would apologize, ask for detailed information about it and promise a quick solution.
+  
