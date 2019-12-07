@@ -33,7 +33,8 @@ namespace HammerAppMVC.Controllers.API
         [ResponseType(typeof(Department))]
         public async Task<IHttpActionResult> GetDepartment(int id)
         {
-            Department department = await db.Departments.FindAsync(id);
+            Department department = await db.Departments.Include(d => d.Employees)
+                            .FirstOrDefaultAsync(d => d.DepartmentNo == id);
             if (department == null)
             {
                 return NotFound();
