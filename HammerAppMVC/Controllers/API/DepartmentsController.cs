@@ -26,7 +26,7 @@ namespace HammerAppMVC.Controllers.API
         // GET: api/Departments
         public IQueryable<Department> GetDepartments()
         {
-            return db.Departments;
+            return db.Departments.Include(d => d.Employees);
         }
 
         // GET: api/Departments/5
